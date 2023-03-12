@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2157.537, g: 2260.4658, b: 3280.672, a: 1}
+  m_IndirectSpecularColor: {r: 2157.509, g: 2260.0225, b: 3279.6782, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 43374233}
   - component: {fileID: 43374232}
   - component: {fileID: 43374231}
+  - component: {fileID: 43374235}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -220,6 +221,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &43374235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43374230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8b28aeb22d4f0240a78d9d16ee1432f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &157207112
 GameObject:
   m_ObjectHideFlags: 0
@@ -537,9 +550,9 @@ MonoBehaviour:
       y: 0
   layers: []
   originPosition:
-    x: -122.38
-    y: 37.79
-    z: 0
+    x: -77.735482
+    y: 43.331219
+    z: 10
     SRWkid: 4326
   mapType: 0
   editorModeEnabled: 1
